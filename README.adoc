@@ -1,0 +1,62 @@
+== Description
+
+The module `sentinel.mosaic` provides the class `sentinel.mosaic.Processor` and a CLI tool called 
+`sentinel-toolbelt.py` for joining, clipping and creating mosaics of of satellite images collected
+by the Sentinel-2A and Sentinel-2B satellites and accessible through Copernicus Open Access Hub.
+
+== Libraries used
+
+[%header,cols="1,3,1"]
+|===
+| library
+| functionality
+| version
+
+| link:https://rasterio.readthedocs.io/en/latest/[rasterio]
+| raster image library
+| 1.2.1
+
+| link:https://sentinelsat.readthedocs.io/en/stable/[sentinelsat]
+| library that offers ways to query data collected from Sentinel through the Sentinel-2A and Sentinel-2B satellites
+| 0.14 
+
+| link:https://shapely.readthedocs.io/en/stable/manual.html[shapely]
+| library that provides algorithms for processing vector data
+| 1.7.1
+
+| link:https://gdal.org/programs/index.html[GDAL]
+| library and set of tools that allows processing of geographical raster images from commandline. it's also
+  a dependency for other lirbaries.
+| 3.1.4
+
+| link:https://geopandas.org/[geopandas]
+| library for transforming and querying geographical data frames (the data frames can contain metadata with polygon contours) 
+| 0.9.0
+
+| link:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html[matplotlib.pyplot]
+| library for plotting data and drawing vectorial as well as raster data (mostly used for previews and summarizing data)
+| 3.4.0
+
+| link:https://jupyter.org/[Jupyter]
+| 
+| 1.0.0
+
+| Operating system
+| The code was tested in both Windows *10* and Debian *10* 
+| 
+
+| Anaconda distribution
+| Anaconda3 *2020.11*
+| 
+
+| Python version used
+| Python *3.8.5*
+|
+
+|===
+
+== Setting up in Anaconda3
+
+
+
+
