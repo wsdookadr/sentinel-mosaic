@@ -4,6 +4,8 @@ The module `sentinel.mosaic` provides the class `sentinel.mosaic.Processor` and 
 `sentinel-toolbelt.py` for joining, clipping and creating mosaics of of satellite images collected
 by the Sentinel-2A and Sentinel-2B satellites and accessible through Copernicus Open Access Hub.
 
+See this link:https://wsdookadr.github.io/posts/p5/[blog post] for more details.
+
 == Libraries used
 
 [%header,cols="1,3,1"]
@@ -54,9 +56,4 @@ by the Sentinel-2A and Sentinel-2B satellites and accessible through Copernicus 
 |
 
 |===
-
-== Setting up in Anaconda3
-
-
-
 
